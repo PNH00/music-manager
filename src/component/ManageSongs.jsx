@@ -27,6 +27,7 @@ export default function ManageSongs({ setPath }) {
         fetchSongs();
     }, []);
 
+
     useEffect(() => {
         setPath(">> Songs");
     }, [setPath]);
@@ -41,23 +42,10 @@ export default function ManageSongs({ setPath }) {
     const currentSongs = filteredSongs.slice(startIndex, startIndex + itemsPerPage);
 
     useEffect(() => {
-        const allChecked = currentSongs.every((song, index) => checkState[startIndex + index]);
+        const allChecked = currentSongs.every((_, index) => checkState[startIndex + index]);
         setIsAllChecked(allChecked);
     }, [checkState, currentSongs, startIndex]);
 
-    const handleCheckboxChange = (index) => {
-        const updatedCheckState = [...checkState];
-        updatedCheckState[startIndex + index] = !updatedCheckState[startIndex + index];
-        setCheckState(updatedCheckState);
-    };
-
-    const handleToggleAll = (e) => {
-        const isChecked = e.target.checked;
-        const updatedCheckState = checkState.map((checked, index) =>
-            index >= startIndex && index < startIndex + itemsPerPage ? isChecked : checked
-        );
-        setCheckState(updatedCheckState);
-    };
 
     const handleSearchChange = (e) => {
         const trimmedValue = e.target.value.trim();
@@ -68,8 +56,8 @@ export default function ManageSongs({ setPath }) {
 
     const deleteSongs = async () => {
         try {
-            const idSongs = songs
-                .filter((song, index) => checkState[index])
+            const idSongs = filteredSongs
+                .filter((_, index) => checkState[startIndex + index])
                 .map(song => song.id);
 
             if (idSongs.length === 0) {
@@ -77,8 +65,8 @@ export default function ManageSongs({ setPath }) {
                 return;
             }
 
-            const cf = window.confirm('Are you sure! you want to delete the selected songs ?');
-            if (cf) {
+            const confirmDelete = window.confirm('Are you sure! you want to delete the selected songs ?');
+            if (confirmDelete) {
                 for (const id of idSongs) {
                     await deleteSongApi(id);
                 }
@@ -92,19 +80,36 @@ export default function ManageSongs({ setPath }) {
         }
     };
 
+    const handleCheckboxChange = (index) => {
+        const updatedCheckState = [...checkState];
+        updatedCheckState[startIndex + index] = !updatedCheckState[startIndex + index];
+        setCheckState(updatedCheckState);
+    };
+
+    const handleToggleAll = (e) => {
+        const isChecked = e.target.checked;
+        const updatedCheckState = checkState.map((checked, index) => {
+            const isInCurrentPage = index >= startIndex && index < startIndex + itemsPerPage;
+            return isInCurrentPage ? isChecked : checked;
+        });
+        setCheckState(updatedCheckState);
+    };
+
     const deleteOneSong = async (id) => {
         try {
-            const cf = window.confirm('Are you sure! you want to delete this song ?');
-            if (cf) {
+            const confirmDelete = window.confirm('Are you sure! you want to delete this song ?');
+            if (confirmDelete) {
                 await deleteSongApi(id);
                 const updatedSongs = songs.filter(song => song.id !== id);
                 setSongs(updatedSongs);
-                setCheckState(Array(updatedSongs.length).fill(false));
+                setCheckState(checkState.filter((_, index) => songs[index].id !== id));
+                setIsAllChecked(false);
             }
         } catch (error) {
             console.error("Failed to delete song", error);
         }
     };
+
 
     const handleAddSong = async (newSong) => {
         try {

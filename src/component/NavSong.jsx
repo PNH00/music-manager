@@ -4,10 +4,15 @@ import add from "../img/add-icon.png";
 import del from "../img/delete-icon.png";
 
 export default function NavSong({ onSearchChange, deleteSongs, showModal }) {
+
+    //pen search input
     const [showSearch, setShowSearch] = useState(false);
 
+    //Set show search
     const toggleSearch = () => {
+
         setShowSearch(!showSearch);
+
         if (showSearch) {
             onSearchChange({ target: { value: '' } });
         }
