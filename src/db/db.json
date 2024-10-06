@@ -1,0 +1,1080 @@
+{
+  "songs": [
+    {
+      "id": "14",
+      "songName": "Peaches",
+      "artist": "Justin Bieber ft. Daniel Caesar, Giveon",
+      "album": "Justice",
+      "year": 2021
+    },
+    {
+      "id": "15",
+      "songName": "Save Your Tears",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020
+    },
+    {
+      "id": "16",
+      "songName": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021
+    },
+    {
+      "id": "17",
+      "songName": "Drivers License",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021
+    },
+    {
+      "id": "18",
+      "songName": "Butter",
+      "artist": "BTS",
+      "album": "Butter",
+      "year": 2021
+    },
+    {
+      "id": "19",
+      "songName": "Easy On Me",
+      "artist": "Adele",
+      "album": "30",
+      "year": 2021
+    },
+    {
+      "id": "20",
+      "songName": "Industry Baby",
+      "artist": "Lil Nas X ft. Jack Harlow",
+      "album": "Montero",
+      "year": 2021
+    },
+    {
+      "id": "21",
+      "songName": "Shivers",
+      "artist": "Ed Sheeran",
+      "album": "=",
+      "year": 2021
+    },
+    {
+      "id": "22",
+      "songName": "Need To Know",
+      "artist": "Doja Cat",
+      "album": "Planet Her",
+      "year": 2021
+    },
+    {
+      "id": "23",
+      "songName": "Stayin' Alive",
+      "artist": "Drake, DJ Khaled & Lil Baby",
+      "album": "God Did",
+      "year": 2022
+    },
+    {
+      "id": "24",
+      "songName": "As It Was",
+      "artist": "Harry Styles",
+      "album": "Harry's House",
+      "year": 2022
+    },
+    {
+      "id": "25",
+      "songName": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "album": "Midnights",
+      "year": 2022
+    },
+    {
+      "id": "26",
+      "songName": "Stay",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "album": "F*CK LOVE",
+      "year": 2021
+    },
+    {
+      "id": "27",
+      "songName": "Kiss Me More",
+      "artist": "Doja Cat ft. SZA",
+      "album": "Planet Her",
+      "year": 2021
+    },
+    {
+      "id": "28",
+      "songName": "Montero (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "album": "Montero",
+      "year": 2021
+    },
+    {
+      "id": "29",
+      "songName": "Heat Waves",
+      "artist": "Glass Animals",
+      "album": "Dreamland",
+      "year": 2020
+    },
+    {
+      "id": "30",
+      "songName": "Levitating",
+      "artist": "Dua Lipa ft. DaBaby",
+      "album": "Future Nostalgia",
+      "year": 2020
+    },
+    {
+      "id": "31",
+      "songName": "Need to Know",
+      "artist": "Doja Cat",
+      "album": "Planet Her",
+      "year": 2021
+    },
+    {
+      "id": "32",
+      "songName": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "album": "=",
+      "year": 2021
+    },
+    {
+      "id": "33",
+      "songName": "Save Your Tears (Remix)",
+      "artist": "The Weeknd & Ariana Grande",
+      "album": "After Hours",
+      "year": 2021
+    },
+    {
+      "id": "34",
+      "songName": "Take My Breath",
+      "artist": "The Weeknd",
+      "album": "Dawn FM",
+      "year": 2022
+    },
+    {
+      "id": "35",
+      "songName": "Don't Go Yet",
+      "artist": "Camila Cabello",
+      "album": "Familia",
+      "year": 2021
+    },
+    {
+      "id": "36",
+      "songName": "Ghost",
+      "artist": "Justin Bieber",
+      "album": "Justice",
+      "year": 2021
+    },
+    {
+      "id": "37",
+      "songName": "For You",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "album": "F*CK LOVE",
+      "year": 2021
+    },
+    {
+      "id": "38",
+      "songName": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021
+    },
+    {
+      "id": "39",
+      "songName": "Fancy Like",
+      "artist": "Walker Hayes",
+      "album": "Country Stuff",
+      "year": 2021
+    },
+    {
+      "id": "40",
+      "songName": "RAPSTAR",
+      "artist": "Polo G",
+      "album": "Hall of Fame",
+      "year": 2021
+    },
+    {
+      "id": "41",
+      "songName": "Bad Guy",
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "year": 2019
+    },
+    {
+      "id": "42",
+      "songName": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020
+    },
+    {
+      "id": "43",
+      "songName": "Before You Go",
+      "artist": "Lewis Capaldi",
+      "album": "Divinely Uninspired to a Hellish Extent",
+      "year": 2019
+    },
+    {
+      "id": "44",
+      "songName": "Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "album": "Divinely Uninspired to a Hellish Extent",
+      "year": 2019
+    },
+    {
+      "id": "45",
+      "songName": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "year": 2019
+    },
+    {
+      "id": "46",
+      "songName": "Circles",
+      "artist": "Post Malone",
+      "album": "Hollywood's Bleeding",
+      "year": 2019
+    },
+    {
+      "id": "47",
+      "songName": "Dance Monkey",
+      "artist": "Tones and I",
+      "album": "The Kids Are Coming",
+      "year": 2019
+    },
+    {
+      "id": "48",
+      "songName": "Memories",
+      "artist": "Maroon 5",
+      "album": "Memories - Single",
+      "year": 2019
+    },
+    {
+      "id": "49",
+      "songName": "Goodbyes",
+      "artist": "Post Malone ft. Young Thug",
+      "album": "Hollywood's Bleeding",
+      "year": 2019
+    },
+    {
+      "id": "50",
+      "songName": "Falling",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "year": 2019
+    },
+    {
+      "id": "51",
+      "songName": "Say So",
+      "artist": "Doja Cat",
+      "album": "Hot Pink",
+      "year": 2019
+    },
+    {
+      "id": "52",
+      "songName": "Sunflower",
+      "artist": "Post Malone & Swae Lee",
+      "album": "Spider-Man: Into the Spider-Verse",
+      "year": 2018
+    },
+    {
+      "id": "53",
+      "songName": "Perfect",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "year": 2017
+    },
+    {
+      "id": "54",
+      "songName": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "year": 2017
+    },
+    {
+      "id": "55",
+      "songName": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Vida",
+      "year": 2019
+    },
+    {
+      "id": "56",
+      "songName": "No Tears Left to Cry",
+      "artist": "Ariana Grande",
+      "album": "Sweetener",
+      "year": 2018
+    },
+    {
+      "id": "57",
+      "songName": "New Rules",
+      "artist": "Dua Lipa",
+      "album": "Dua Lipa",
+      "year": 2017
+    },
+    {
+      "id": "58",
+      "songName": "IDGAF",
+      "artist": "Dua Lipa",
+      "album": "Dua Lipa",
+      "year": 2017
+    },
+    {
+      "id": "59",
+      "songName": "Bad Liar",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "year": 2017
+    },
+    {
+      "id": "60",
+      "songName": "Shallow",
+      "artist": "Lady Gaga & Bradley Cooper",
+      "album": "A Star Is Born",
+      "year": 2018
+    },
+    {
+      "id": "61",
+      "songName": "Havana",
+      "artist": "Camila Cabello ft. Young Thug",
+      "album": "Camila",
+      "year": 2018
+    },
+    {
+      "id": "62",
+      "songName": "Girls Like You",
+      "artist": "Maroon 5 ft. Cardi B",
+      "album": "Red Pill Blues",
+      "year": 2017
+    },
+    {
+      "id": "63",
+      "songName": "Dusk Till Dawn",
+      "artist": "Zayn ft. Sia",
+      "album": "Icarus Falls",
+      "year": 2018
+    },
+    {
+      "id": "64",
+      "songName": "Rise",
+      "artist": "Katy Perry",
+      "album": "Witness",
+      "year": 2017
+    },
+    {
+      "id": "65",
+      "songName": "Young Dumb & Broke",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "year": 2017
+    },
+    {
+      "id": "66",
+      "songName": "We Don't Talk Anymore",
+      "artist": "Charlie Puth ft. Selena Gomez",
+      "album": "Nine Track Mind",
+      "year": 2016
+    },
+    {
+      "id": "67",
+      "songName": "Stay With Me",
+      "artist": "Sam Smith",
+      "album": "In the Lonely Hour",
+      "year": 2014
+    },
+    {
+      "id": "68",
+      "songName": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "album": "x",
+      "year": 2014
+    },
+    {
+      "id": "69",
+      "songName": "All of Me",
+      "artist": "John Legend",
+      "album": "Love in the Future",
+      "year": 2013
+    },
+    {
+      "id": "70",
+      "songName": "Wake Me Up",
+      "artist": "Avicii",
+      "album": "True",
+      "year": 2013
+    },
+    {
+      "id": "71",
+      "songName": "Just the Way You Are",
+      "artist": "Bruno Mars",
+      "album": "Doo-Wops & Hooligans",
+      "year": 2010
+    },
+    {
+      "id": "72",
+      "songName": "Grenade",
+      "artist": "Bruno Mars",
+      "album": "Doo-Wops & Hooligans",
+      "year": 2010
+    },
+    {
+      "id": "73",
+      "songName": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011
+    },
+    {
+      "id": "74",
+      "songName": "Someone Like You",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011
+    },
+    {
+      "id": "75",
+      "songName": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "album": "The Bodyguard",
+      "year": 1992
+    },
+    {
+      "id": "76",
+      "songName": "My Heart Will Go On",
+      "artist": "Celine Dion",
+      "album": "Let's Talk About Love",
+      "year": 1997
+    },
+    {
+      "id": "77",
+      "songName": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982
+    },
+    {
+      "id": "78",
+      "songName": "Shape of My Heart",
+      "artist": "Backstreet Boys",
+      "album": "Black & Blue",
+      "year": 2000
+    },
+    {
+      "id": "79",
+      "songName": "Tears Dry on Their Own",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "year": 2006
+    },
+    {
+      "id": "80",
+      "songName": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "album": "Justified",
+      "year": 2002
+    },
+    {
+      "id": "81",
+      "songName": "With or Without You",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "year": 1987
+    },
+    {
+      "id": "82",
+      "songName": "I Don't Want to Miss a Thing",
+      "artist": "Aerosmith",
+      "album": "Armageddon: The Album",
+      "year": 1998
+    },
+    {
+      "id": "83",
+      "songName": "The Way You Make Me Feel",
+      "artist": "Michael Jackson",
+      "album": "Bad",
+      "year": 1987
+    },
+    {
+      "id": "84",
+      "songName": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity",
+      "year": 1983
+    },
+    {
+      "id": "85",
+      "songName": "Take On Me",
+      "artist": "a-ha",
+      "album": "Hunting High and Low",
+      "year": 1985
+    },
+    {
+      "id": "86",
+      "songName": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "year": 1987
+    },
+    {
+      "id": "87",
+      "songName": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "year": 1995
+    },
+    {
+      "id": "88",
+      "songName": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991
+    },
+    {
+      "id": "89",
+      "songName": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile",
+      "year": 2002
+    },
+    {
+      "id": "90",
+      "songName": "Umbrella",
+      "artist": "Rihanna ft. Jay-Z",
+      "album": "Good Girl Gone Bad",
+      "year": 2007
+    },
+    {
+      "id": "91",
+      "songName": "Poker Face",
+      "artist": "Lady Gaga",
+      "album": "The Fame",
+      "year": 2008
+    },
+    {
+      "id": "92",
+      "songName": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011
+    },
+    {
+      "id": "93",
+      "songName": "Love Story",
+      "artist": "Taylor Swift",
+      "album": "Fearless",
+      "year": 2008
+    },
+    {
+      "id": "94",
+      "songName": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "year": 2014
+    },
+    {
+      "id": "95",
+      "songName": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020
+    },
+    {
+      "id": "96",
+      "songName": "Stitches",
+      "artist": "Shawn Mendes",
+      "album": "Handwritten",
+      "year": 2015
+    },
+    {
+      "id": "97",
+      "songName": "The One That Got Away",
+      "artist": "Katy Perry",
+      "album": "Teenage Dream",
+      "year": 2012
+    },
+    {
+      "id": "98",
+      "songName": "Love Me Like You Do",
+      "artist": "Ellie Goulding",
+      "album": "Fifty Shades of Grey",
+      "year": 2015
+    },
+    {
+      "id": "99",
+      "songName": "Stay",
+      "artist": "Rihanna ft. Mikky Ekko",
+      "album": "Unapologetic",
+      "year": 2012
+    },
+    {
+      "id": "100",
+      "songName": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Divide)",
+      "year": 2017
+    },
+    {
+      "id": "101",
+      "songName": "A Thousand Years",
+      "artist": "Christina Perri",
+      "album": "The Twilight Saga: Breaking Dawn – Part 1",
+      "year": 2011
+    },
+    {
+      "id": "102",
+      "songName": "Chasing Cars",
+      "artist": "Snow Patrol",
+      "album": "Eyes Open",
+      "year": 2006
+    },
+    {
+      "id": "103",
+      "songName": "Halo",
+      "artist": "Beyoncé",
+      "album": "I Am... Sasha Fierce",
+      "year": 2008
+    },
+    {
+      "id": "104",
+      "songName": "Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "album": "Divinely Uninspired to a Hellish Extent",
+      "year": 2019
+    },
+    {
+      "id": "105",
+      "songName": "Dancing with a Stranger",
+      "artist": "Sam Smith & Normani",
+      "album": "Dancing with a Stranger - Single",
+      "year": 2019
+    },
+    {
+      "id": "106",
+      "songName": "Midnight City",
+      "artist": "M83",
+      "album": "Hurry Up, We're Dreaming",
+      "year": 2011
+    },
+    {
+      "id": "107",
+      "songName": "Blow Your Mind (Mwah)",
+      "artist": "Dua Lipa",
+      "album": "Dua Lipa",
+      "year": 2017
+    },
+    {
+      "id": "108",
+      "songName": "Somebody That I Used to Know",
+      "artist": "Gotye ft. Kimbra",
+      "album": "Making Mirrors",
+      "year": 2011
+    },
+    {
+      "id": "109",
+      "songName": "Say You Won't Let Go",
+      "artist": "James Arthur",
+      "album": "Back from the Edge",
+      "year": 2016
+    },
+    {
+      "id": "110",
+      "songName": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011
+    },
+    {
+      "id": "111",
+      "songName": "Love Me Harder",
+      "artist": "Ariana Grande & The Weeknd",
+      "album": "My Everything",
+      "year": 2014
+    },
+    {
+      "id": "112",
+      "songName": "What Do You Mean?",
+      "artist": "Justin Bieber",
+      "album": "Purpose",
+      "year": 2015
+    },
+    {
+      "id": "113",
+      "songName": "Perfect",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Divide)",
+      "year": 2017
+    },
+    {
+      "id": "114",
+      "songName": "Sorry",
+      "artist": "Justin Bieber",
+      "album": "Purpose",
+      "year": 2015
+    },
+    {
+      "id": "115",
+      "songName": "Let Her Go",
+      "artist": "Passenger",
+      "album": "All the Little Lights",
+      "year": 2012
+    },
+    {
+      "id": "116",
+      "songName": "Can't Help Falling in Love",
+      "artist": "Elvis Presley",
+      "album": "Blue Hawaii",
+      "year": 1961
+    },
+    {
+      "id": "117",
+      "songName": "You Are the Reason",
+      "artist": "Calum Scott",
+      "album": "Only Human",
+      "year": 2017
+    },
+    {
+      "id": "118",
+      "songName": "My Immortal",
+      "artist": "Evanescence",
+      "album": "Fallen",
+      "year": 2003
+    },
+    {
+      "id": "119",
+      "songName": "Bleeding Love",
+      "artist": "Leona Lewis",
+      "album": "Spirit",
+      "year": 2007
+    },
+    {
+      "id": "120",
+      "songName": "The Scientist",
+      "artist": "Coldplay",
+      "album": "A Rush of Blood to the Head",
+      "year": 2002
+    },
+    {
+      "id": "121",
+      "songName": "Say Something",
+      "artist": "A Great Big World ft. Christina Aguilera",
+      "album": "Is There Anybody Out There?",
+      "year": 2013
+    },
+    {
+      "id": "122",
+      "songName": "Stay",
+      "artist": "Zedd & Alessia Cara",
+      "album": "Stay - Single",
+      "year": 2017
+    },
+    {
+      "id": "123",
+      "songName": "Go Your Own Way",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "year": 1977
+    },
+    {
+      "id": "124",
+      "songName": "Free Fallin'",
+      "artist": "Tom Petty",
+      "album": "Full Moon Fever",
+      "year": 1989
+    },
+    {
+      "id": "125",
+      "songName": "Take Me to Church",
+      "artist": "Hozier",
+      "album": "Hozier",
+      "year": 2014
+    },
+    {
+      "id": "126",
+      "songName": "Kiss Me",
+      "artist": "Sixpence None the Richer",
+      "album": "Sixpence None the Richer",
+      "year": 1997
+    },
+    {
+      "id": "127",
+      "songName": "Bubbly",
+      "artist": "Colbie Caillat",
+      "album": "CoCo",
+      "year": 2007
+    },
+    {
+      "id": "128",
+      "songName": "Fallin'",
+      "artist": "Alicia Keys",
+      "album": "Songs in A Minor",
+      "year": 2001
+    },
+    {
+      "id": "129",
+      "songName": "Back to December",
+      "artist": "Taylor Swift",
+      "album": "Speak Now",
+      "year": 2010
+    },
+    {
+      "id": "130",
+      "songName": "Tears Dry on Their Own",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "year": 2006
+    },
+    {
+      "id": "131",
+      "songName": "Everything I Do (I Do It for You)",
+      "artist": "Bryan Adams",
+      "album": "Waking Up the Neighbours",
+      "year": 1991
+    },
+    {
+      "id": "132",
+      "songName": "Let It Go",
+      "artist": "James Bay",
+      "album": "Chaos and the Calm",
+      "year": 2016
+    },
+    {
+      "id": "133",
+      "songName": "Hurt",
+      "artist": "Christina Aguilera",
+      "album": "Stripped",
+      "year": 2002
+    },
+    {
+      "id": "134",
+      "songName": "Chasing Cars",
+      "artist": "Snow Patrol",
+      "album": "Eyes Open",
+      "year": 2006
+    },
+    {
+      "id": "135",
+      "songName": "Believer",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "year": 2017
+    },
+    {
+      "id": "136",
+      "songName": "Rise Up",
+      "artist": "Andra Day",
+      "album": "Cheers to the Fall",
+      "year": 2015
+    },
+    {
+      "id": "137",
+      "songName": "Fight Song",
+      "artist": "Rachel Platten",
+      "album": "Wildfire",
+      "year": 2016
+    },
+    {
+      "id": "138",
+      "songName": "Let Me Love You",
+      "artist": "Mario",
+      "album": "Turning Point",
+      "year": 2004
+    },
+    {
+      "id": "139",
+      "songName": "Irreplaceable",
+      "artist": "Beyoncé",
+      "album": "B'Day",
+      "year": 2006
+    },
+    {
+      "id": "140",
+      "songName": "Unchained Melody",
+      "artist": "The Righteous Brothers",
+      "album": "Just Once in My Life",
+      "year": 1965
+    }
+  ],
+  "playlists": [
+    {
+      "name": "Pop Hits of 2021",
+      "songs": [
+        "Peaches - Justin Bieber ft. Daniel Caesar, Giveon",
+        "Good 4 U - Olivia Rodrigo",
+        "Drivers License - Olivia Rodrigo",
+        "Butter - BTS",
+        "Industry Baby - Lil Nas X ft. Jack Harlow",
+        "Kiss Me More - Doja Cat ft. SZA"
+      ],
+      "id": "3a91"
+    },
+    {
+      "name": "Throwback Classics",
+      "songs": [
+        "Billie Jean - Michael Jackson",
+        "I Will Always Love You - Whitney Houston",
+        "Shape of My Heart - Backstreet Boys",
+        "Rolling in the Deep - Adele",
+        "Sweet Child O' Mine - Guns N' Roses",
+        "Every Breath You Take - The Police"
+      ],
+      "id": "469f"
+    },
+    {
+      "name": "Heartfelt Ballads",
+      "songs": [
+        "Someone You Loved - Lewis Capaldi",
+        "All of Me - John Legend",
+        "Shallow - Lady Gaga & Bradley Cooper",
+        "A Thousand Years - Christina Perri",
+        "Easy On Me - Adele",
+        "Stay - Rihanna ft. Mikky Ekko"
+      ],
+      "id": "8491"
+    },
+    {
+      "name": "Dance Party Anthems",
+      "songs": [
+        "Levitating - Dua Lipa ft. DaBaby",
+        "Shape of You - Ed Sheeran",
+        "Blinding Lights - The Weeknd",
+        "Dance Monkey - Tones and I",
+        "Save Your Tears - The Weeknd",
+        "Don't Go Yet - Camila Cabello"
+      ],
+      "id": "fb54"
+    },
+    {
+      "name": "Chill Vibes",
+      "songs": [
+        "Stay - The Kid LAROI & Justin Bieber",
+        "Ghost - Justin Bieber",
+        "Perfect - Ed Sheeran",
+        "Sunflower - Post Malone & Swae Lee",
+        "Thinking Out Loud - Ed Sheeran",
+        "Chasing Cars - Snow Patrol"
+      ],
+      "id": "2e76"
+    },
+    {
+      "name": "Trending Now",
+      "songs": [
+        "Anti-Hero - Taylor Swift",
+        "As It Was - Harry Styles",
+        "Good 4 U - Olivia Rodrigo",
+        "Need To Know - Doja Cat",
+        "Montero (Call Me By Your Name) - Lil Nas X",
+        "Bad Habits - Ed Sheeran"
+      ],
+      "id": "35b6"
+    },
+    {
+      "name": "Rock Legends",
+      "songs": [
+        "Stairway to Heaven - Led Zeppelin",
+        "Bohemian Rhapsody - Queen",
+        "Hotel California - Eagles",
+        "Smoke on the Water - Deep Purple",
+        "Highway to Hell - AC/DC",
+        "Back in Black - AC/DC"
+      ],
+      "id": "13d4"
+    },
+    {
+      "name": "Hip-Hop Hits",
+      "songs": [
+        "Sicko Mode - Travis Scott",
+        "HUMBLE. - Kendrick Lamar",
+        "Bodak Yellow - Cardi B",
+        "Old Town Road - Lil Nas X ft. Billy Ray Cyrus",
+        "In Da Club - 50 Cent",
+        "God's Plan - Drake"
+      ],
+      "id": "df90"
+    },
+    {
+      "name": "Indie Favorites",
+      "songs": [
+        "Electric Feel - MGMT",
+        "Take Me Out - Franz Ferdinand",
+        "Dog Days Are Over - Florence + The Machine",
+        "Pumped Up Kicks - Foster the People",
+        "Young Folks - Peter Bjorn and John",
+        "Home - Edward Sharpe & The Magnetic Zeros"
+      ],
+      "id": "f1cc"
+    },
+    {
+      "name": "Summer Vibes",
+      "songs": [
+        "Sunshine - Jonathan Edwards",
+        "Walking on Sunshine - Katrina and the Waves",
+        "Summer of '69 - Bryan Adams",
+        "Good Day Sunshine - The Beatles",
+        "Here Comes the Sun - The Beatles",
+        "Cake by the Ocean - DNCE"
+      ],
+      "id": "2dda"
+    },
+    {
+      "name": "Feel-Good Favorites",
+      "songs": [
+        "Happy - Pharrell Williams",
+        "Uptown Funk - Mark Ronson ft. Bruno Mars",
+        "Can’t Stop the Feeling! - Justin Timberlake",
+        "Shut Up and Dance - WALK THE MOON",
+        "Best Day of My Life - American Authors",
+        "I Gotta Feeling - The Black Eyed Peas"
+      ],
+      "id": "7823"
+    },
+    {
+      "name": "Mellow Acoustic",
+      "songs": [
+        "Fast Car - Tracy Chapman",
+        "Skinny Love - Bon Iver",
+        "Wonderwall - Oasis",
+        "Budapest - George Ezra",
+        "Home - Michael Bublé",
+        "Blackbird - The Beatles"
+      ],
+      "id": "6ce0"
+    },
+    {
+      "name": "Dancehall Grooves",
+      "songs": [
+        "Temperature - Sean Paul",
+        "One Dance - Drake ft. Wizkid & Kyla",
+        "Lean On - Major Lazer & DJ Snake",
+        "Vibez - Tash Sultana",
+        "Taki Taki - DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+        "Toast - Koffee"
+      ],
+      "id": "ebb4"
+    },
+    {
+      "name": "R&B Chill",
+      "songs": [
+        "Come Through - H.E.R. ft. Chris Brown",
+        "Leave The Door Open - Silk Sonic",
+        "Best Part - Daniel Caesar ft. H.E.R.",
+        "Blame It - Jamie Foxx ft. T-Pain",
+        "Adorn - Miguel",
+        "Location - Khalid"
+      ],
+      "id": "3045"
+    },
+    {
+      "id": "013e",
+      "name": "Playlist 15",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": "dd52",
+      "name": "Playlist 16",
+      "songs": [
+        "Peaches",
+        "Save Your Tears",
+        "Good 4 U",
+        "Drivers License"
+      ]
+    }
+  ]
+}
