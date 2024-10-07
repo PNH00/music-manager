@@ -1,4 +1,18 @@
-export default function PlayListTable({ playlists, checkState, handleCheckboxChange, handleToggleAll, isAllChecked }) {
+import React from "react";
+import del from "../img/delete-icon.png";
+import edit from "../img/edit-icon.png";
+import play from "../img/play-icon.png";
+
+export default function PlaylistTable({
+    playlists,
+    checkState,
+    handleCheckboxChange,
+    handleToggleAll,
+    deleteOnePlaylist,
+    setEditModalShow,
+    setSelectedPlaylist,
+    isAllChecked
+}) {
     return (
         <div id="table-container">
             <table id="table">
@@ -25,19 +39,33 @@ export default function PlayListTable({ playlists, checkState, handleCheckboxCha
                     ) : (
                         playlists.map((playlist, index) => (
                             <tr key={playlist.id}>
-                                <td className="checkBox-column">
+                                <th>
                                     <input
                                         type="checkbox"
                                         checked={checkState[index] || false}
                                         onChange={() => handleCheckboxChange(index)}
                                     />
-                                </td>
+                                </th>
                                 <td className="name-column">{playlist.name}</td>
-                                <td className="action-column">{playlist.songs.length}</td>
+                                <td className="songs-column">{playlist.songs.length}</td>
                                 <td className="action-column">
-                                    {/* Các hành động như sửa, xóa playlist */}
-                                    <button>Edit</button>
-                                    <button>Delete</button>
+                                    <button>
+                                        <img src={play} alt="play-song-icon" />
+                                        Play
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setSelectedPlaylist(playlist);
+                                            setEditModalShow(true);
+                                        }}
+                                    >
+                                        <img src={edit} alt="edit-playlist-icon" />
+                                        Edit
+                                    </button>
+                                    <button onClick={() => deleteOnePlaylist(playlist.id)}>
+                                        <img src={del} alt="delete-playlist-icon" />
+                                        Delete
+                                    </button>
                                 </td>
                             </tr>
                         ))

@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useSong } from './SongContext';
 import del from "../img/delete-icon.png";
 import edit from "../img/edit-icon.png";
+import play from "../img/play-icon.png";
+import addToPlaylists from "../img/add-playlist-icon.png";
+import AddToPlaylistModal from "./modal/AddToPlaylistModal";
 
 export default function SongTable({
     currentSongs,
@@ -11,8 +15,28 @@ export default function SongTable({
     deleteOneSong,
     setEditModalShow,
     setSelectedSong,
-    isAllChecked
+    isAllChecked,
+    addToPlaylist
 }) {
+    const [addToPlaylistModalShow, setAddToPlaylistModalShow] = useState(false);
+    const [selectedSongForPlaylist, setSelectedSongForPlaylist] = useState(null);
+    const { setCurrentSong } = useSong();
+    const { setSongList, setCurrentSongs } = useSong();
+
+    useEffect(() => {
+        setSongList(currentSongs);
+        setCurrentSongs(currentSongs);
+    }, [currentSongs, setSongList, setCurrentSongs]);
+
+    const handleAddToPlaylist = (song) => {
+        setSelectedSongForPlaylist(song);
+        setAddToPlaylistModalShow(true);
+    };
+
+    const handlePlaySong = (song) => {
+        setCurrentSong(song);
+    };
+
     return (
         <div id="table-container">
             <table id="table">
@@ -45,6 +69,14 @@ export default function SongTable({
                             <td>{song.songName}</td>
                             <td>{song.artist}</td>
                             <td>
+                                <button onClick={() => handlePlaySong(song)}>
+                                    <img src={play} alt="play-song-icon" />
+                                    Play
+                                </button>
+                                <button onClick={() => handleAddToPlaylist(song)}>
+                                    <img src={addToPlaylists} alt="add-to-playlist-icon" />
+                                    Add to playlists
+                                </button>
                                 <button
                                     onClick={() => {
                                         setSelectedSong(song);
@@ -63,6 +95,14 @@ export default function SongTable({
                     ))}
                 </tbody>
             </table>
+            {selectedSongForPlaylist && (
+                <AddToPlaylistModal
+                    show={addToPlaylistModalShow}
+                    onHide={() => setAddToPlaylistModalShow(false)}
+                    song={selectedSongForPlaylist}
+                    onAddToPlaylist={addToPlaylist}
+                />
+            )}
         </div>
     );
 }

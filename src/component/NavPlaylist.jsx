@@ -3,7 +3,7 @@ import search from "../img/search-icon.png";
 import add from "../img/add-icon.png";
 import del from "../img/delete-icon.png";
 
-export default function NavPlaylist({ onSearchChange, deleteSongs, showModal }) {
+export default function NavPlaylist({ onSearchChange, deletePlaylists, showModal }) {
     const [showSearch, setShowSearch] = useState(false);
 
     const toggleSearch = () => {
@@ -23,22 +23,22 @@ export default function NavPlaylist({ onSearchChange, deleteSongs, showModal }) 
                     {!showSearch ? (
                         <>
                             <button onClick={showModal}>
-                                <img src={add} alt="add-song-icon" />
+                                <img src={add} alt="add-playlist-icon" />
                                 Add
                             </button>
-                            <button onClick={deleteSongs}>
-                                <img src={del} alt="delete-song-icon" />
+                            <button onClick={deletePlaylists}>
+                                <img src={del} alt="delete-playlist-icon" />
                                 Delete
                             </button>
                         </>
                     ) : (
-                        <button onClick={deleteSongs}>
-                            <img src={del} alt="delete-song-icon" />
+                        <button onClick={deletePlaylists}>
+                            <img src={del} alt="delete-playlist-icon" />
                             Delete
                         </button>
                     )}
                     <button onClick={toggleSearch}>
-                        <img src={search} alt="search-song-icon" />
+                        <img src={search} alt="search-playlist-icon" />
                         {showSearch ? "Close" : "Search"}
                     </button>
                     {showSearch && (
@@ -46,7 +46,7 @@ export default function NavPlaylist({ onSearchChange, deleteSongs, showModal }) 
                             <input
                                 type="text"
                                 className="search-input"
-                                placeholder="Search for a song..."
+                                placeholder="Search for a playlist..."
                                 onChange={onSearchChange}
                             />
                         </div>

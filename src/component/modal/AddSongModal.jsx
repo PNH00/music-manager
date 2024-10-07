@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import '../../scss/modifySongModal.scss'
 
-export default function AddSongModal({ show, onHide, onAddSong }) {
+export default function AddSongModal({ show, onHide, onCreatePlaylist }) {
     const [songName, setSongName] = useState('');
     const [artist, setArtist] = useState('');
     const [album, setAlbum] = useState('');
@@ -26,8 +25,8 @@ export default function AddSongModal({ show, onHide, onAddSong }) {
             return;
         }
 
-        const newSong = { songName, artist, album, year };
-        onAddSong(newSong);
+        const newPlaylist = { songName, artist, album, year };
+        onCreatePlaylist(newPlaylist);
         setSongName('');
         setArtist('');
         setAlbum('');
@@ -45,7 +44,7 @@ export default function AddSongModal({ show, onHide, onAddSong }) {
                     <button className="close-button" onClick={onHide}>X</button>
                 </div>
                 <div className="modal-body">
-                    <h4>Song Information</h4>
+                    <h4>song Information</h4>
                     <input
                         type="text"
                         placeholder="Song Name"

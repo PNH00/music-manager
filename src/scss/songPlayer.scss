@@ -1,0 +1,30 @@
+.player-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.player-container img {
+    width: 90%;
+    padding-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background: none;
+        border: none;
+
+        img {
+            width: 70%;
+            padding: 0;
+        }
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}

@@ -1,0 +1,180 @@
+@use "sass:math";
+
+$aqua: aqua;
+$fullWidth: 100%;
+@import "size";
+
+.button-basic {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    @include size($fullWidth);
+    margin: 0;
+    padding: 0;
+
+    aside {
+        @include size($width: 15%);
+        background-color: #f8f9fa;
+        float: left;
+
+        button {
+            @extend .button-basic;
+            font-size: larger;
+            width: $fullWidth;
+
+            &:hover {
+                background-color: $aqua;
+            }
+        }
+    }
+
+    #main-section {
+        @include size($fullWidth - 15%);
+    }
+
+    #direction {
+        @include size($fullWidth, 30px);
+        background-color: bisque;
+        // padding: 5px;
+    }
+
+    nav {
+        @include size($height: 47px);
+        background-color: lightblue;
+        align-items: center;
+        display: flex;
+
+        #right {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input {
+            width: 300px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        h2 {
+            float: left;
+            // margin-top: 15px;
+        }
+
+        button {
+            @extend .button-basic;
+            font-size: large;
+            color: white;
+            @include size($height: 100%);
+            color: #686868;
+
+            img {
+                @include size(25px, 25px);
+                margin-right: 8px;
+                vertical-align: middle;
+            }
+
+            &:hover {
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    #right {
+        margin-left: auto;
+        padding: 15px;
+        // margin-top: 15px;
+        display: flex;
+
+        button {
+            margin-left: 10px;
+        }
+    }
+
+    table {
+        width: 100%;
+        border: #686868 1px solid;
+
+        #fixed-title {
+            position: sticky;
+            top: 0;
+            background-color: whitesmoke;
+        }
+
+        th {
+            padding: 10px 0;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        tr {
+            &:nth-child(even) {
+                background-color: #e7e7e7;
+            }
+        }
+
+        .action-column {
+            width: 30%;
+        }
+
+        .checkBox-column {
+            width: 2.5%;
+        }
+
+        // .name-column {
+        //   width: 40%;
+        // }
+
+        // .artist-column {
+        //   width: 40%;
+        // }
+
+        input[type="checkbox"] {
+            accent-color: blue;
+            cursor: pointer;
+            margin: 0;
+            padding-left: 10px;
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            height: 38px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 10px;
+            cursor: pointer;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin: 3px;
+            }
+
+            &:hover {
+                background-color: rgb(211, 211, 211);
+            }
+        }
+    }
+
+    #table-container {
+        height: 650px;
+        overflow-x: auto;
+        overflow-y: auto;
+        border: 1px solid #838383;
+    }
+}

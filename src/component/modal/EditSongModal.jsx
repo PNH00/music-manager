@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import '../../scss/modifySongModal.scss'
 
-export default function EditSongModal({ show, onHide, onAddSong }) {
-    const [songName, setSongName] = useState('');
-    const [artist, setArtist] = useState('');
-    const [album, setAlbum] = useState('');
-    const [year, setYear] = useState('');
+export default function EditSongModal({ show, onHide, song, onEditSong }) {
+    const [songName, setSongName] = useState(song.songName);
+    const [artist, setArtist] = useState(song.artist);
+    const [album, setAlbum] = useState(song.album);
+    const [year, setYear] = useState(song.year);
     const [errors, setErrors] = useState({});
+
     const validate = () => {
         const newErrors = {};
         if (!songName) newErrors.songName = "Song name is required.";
@@ -26,13 +26,9 @@ export default function EditSongModal({ show, onHide, onAddSong }) {
             return;
         }
 
-        const newSong = { songName, artist, album, year };
-        onAddSong(newSong);
-        setSongName('');
-        setArtist('');
-        setAlbum('');
-        setYear('');
-        setErrors({});
+        const updatedSong = { ...song, songName, artist, album, year };
+        onEditSong(updatedSong);
+        onHide();
     };
 
     if (!show) return null;
@@ -41,7 +37,7 @@ export default function EditSongModal({ show, onHide, onAddSong }) {
         <div className="modal-overlay">
             <div className="modal">
                 <div className="modal-header">
-                    <h2>Add New Song</h2>
+                    <h2>Edit Song</h2>
                     <button className="close-button" onClick={onHide}>X</button>
                 </div>
                 <div className="modal-body">
@@ -79,7 +75,7 @@ export default function EditSongModal({ show, onHide, onAddSong }) {
                     {errors.year && <p className="error">{errors.year}</p>}
                 </div>
                 <div className="modal-footer">
-                    <button className="submit-button" onClick={handleSubmit}>Add Song</button>
+                    <button className="submit-button" onClick={handleSubmit}>Save Changes</button>
                     <button className="close-button" onClick={onHide}>Close</button>
                 </div>
             </div>

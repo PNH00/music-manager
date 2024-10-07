@@ -1,11 +1,20 @@
-import React from 'react'
-import logo from '../img/music-icon.png'
+import { Link } from "react-router-dom";
+import logo from "../img/music-icon.png";
 
-export default function Header() {
+export default function Headers() {
     return (
         <header>
-            <img src={logo} alt="Logo" />
-            <h1>Spotifier</h1>
+            <img src={logo} alt="music-icon" />
+
+            <Link
+                to='/'
+                style={{
+                    textDecoration: 'none',
+                    color: 'inherit'
+                }}
+            >
+                <h1>Spotifier</h1>
+            </Link>
         </header>
-    )
+    );
 }

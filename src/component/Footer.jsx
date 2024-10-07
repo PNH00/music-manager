@@ -1,9 +1,7 @@
-import React from 'react'
-
 export default function Footer() {
     return (
         <footer>
-            <h6>TIP 2024</h6>
+            <h6>Copyright 2014 TMA Solutions</h6>
         </footer>
-    )
+    );
 }

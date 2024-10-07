@@ -4,7 +4,8 @@ import SongsPagination from './SongsPagination';
 import AddSongModal from './modal/AddSongModal';
 import EditSongModal from './modal/EditSongModal';
 import NavSong from "./NavSong";
-import TableSong from "./SongTable";
+import SongTable from "./SongTable";
+import { addSongToPlaylistApi } from '../util/songsRestApi';
 
 export default function ManageSongs({ setPath }) {
     const [songs, setSongs] = useState([]);
@@ -133,10 +134,20 @@ export default function ManageSongs({ setPath }) {
 
     const selectedItemsCount = checkState.filter(Boolean).length;
 
+    const addToPlaylist = async (song, playlistId) => {
+        try {
+            await addSongToPlaylistApi(song, playlistId);
+            alert('Song added to playlist successfully!');
+        } catch (error) {
+            console.error('Failed to add song to playlist:', error);
+            alert('Failed to add song to playlist.');
+        }
+    };
+
     return (
         <>
             <NavSong onSearchChange={handleSearchChange} deleteSongs={deleteSongs} showModal={() => setModalShow(true)} />
-            <TableSong
+            <SongTable
                 currentSongs={currentSongs}
                 checkState={checkState}
                 startIndex={startIndex}
@@ -146,6 +157,7 @@ export default function ManageSongs({ setPath }) {
                 setEditModalShow={setEditModalShow}
                 setSelectedSong={setSelectedSong}
                 isAllChecked={isAllChecked}
+                addToPlaylist={addToPlaylist} // Thêm hàm này vào
             />
             <SongsPagination
                 totalItems={totalSongs}

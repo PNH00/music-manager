@@ -1,6 +1,4 @@
-import '../scss/pagination.scss'
-
-export default function Pagination({ totalItems, itemsPerPage, currentPage, onPageChange, selectedItemsCount }) {
+function PlaylistsPagination({ totalItems, itemsPerPage, currentPage, onPageChange, selectedItemsCount }) {
     const totalPages = Math.ceil(totalItems / itemsPerPage);
 
     const handlePageChange = (page) => {
@@ -29,3 +27,5 @@ export default function Pagination({ totalItems, itemsPerPage, currentPage, onPa
         </div>
     );
 }
+
+export default PlaylistsPagination;

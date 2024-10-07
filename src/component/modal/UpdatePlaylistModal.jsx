@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { getSongsApi } from '../../util/songsRestApi';
+import { updatePlaylistApi } from '../../util/playlistsRestApi'; // Import hàm updatePlaylistApi
 
-export default function CreatePlaylistModal({ show, onHide, onCreatePlaylist, playlistLength }) {
+export default function UpdatePlaylistModal({ show, onHide, onUpdatePlaylist, selectedPlaylist }) {
     const [playlistName, setPlaylistName] = useState('');
     const [selectedSongs, setSelectedSongs] = useState([]);
     const [songs, setSongs] = useState([]);
@@ -22,19 +23,24 @@ export default function CreatePlaylistModal({ show, onHide, onCreatePlaylist, pl
 
         if (show) {
             fetchSongs();
+            if (selectedPlaylist) {
+                setPlaylistName(selectedPlaylist.name);
+                setSelectedSongs(selectedPlaylist.songs.map(song => song.id)); // Lấy ID bài hát
+            }
         }
-    }, [show]);
+    }, [show, selectedPlaylist]);
 
     const handleSubmit = async () => {
-        const nameToUse = playlistName.trim() || `Playlist ${playlistLength + 1}`;
-        const newPlaylist = {
-            name: nameToUse,
+        const updatedPlaylist = {
+            id: selectedPlaylist.id,
+            name: playlistName.trim(),
             songs: selectedSongs.map(songId => {
                 const song = songs.find(s => s.id === songId);
-                return song ? { ...song } : null;
-            }).filter(Boolean)
+                return song ? { ...song } : null; // Trả về đối tượng bài hát nếu tìm thấy
+            }).filter(Boolean) // Lọc các null
         };
-        onCreatePlaylist(newPlaylist);
+        const updatedResponse = await updatePlaylistApi(selectedPlaylist.id, updatedPlaylist); // Cập nhật playlist
+        onUpdatePlaylist(updatedResponse);
         resetFields();
         onHide();
     };
@@ -55,7 +61,7 @@ export default function CreatePlaylistModal({ show, onHide, onCreatePlaylist, pl
         <div className="modal-overlay">
             <div className="modal">
                 <div className="modal-header">
-                    <h2>Create Playlist</h2>
+                    <h2>Update Playlist</h2>
                     <button className="close-button" onClick={onHide}>X</button>
                 </div>
                 <div className="modal-body">
@@ -85,7 +91,7 @@ export default function CreatePlaylistModal({ show, onHide, onCreatePlaylist, pl
                     </select>
                 </div>
                 <div className="modal-footer">
-                    <button className="submit-button" onClick={handleSubmit}>Add Playlist</button>
+                    <button className="submit-button" onClick={handleSubmit}>Update Playlist</button>
                     <button className="close-button" onClick={onHide}>Close</button>
                 </div>
             </div>

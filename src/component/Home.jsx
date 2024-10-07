@@ -1,19 +1,14 @@
-import { useState, useEffect } from 'react';
-import { getPlaylistsApi } from '../util/playlistsRestApi';
-import { addPlaylistsApi } from '../util/playlistsRestApi';
-import PlayListTable from "./PlaylistTable";
-import NavPlaylist from './NavPlaylist';
-import PlaylistsPagination from './PlaylistsPagination';
-import CreatePlaylistModal from './modal/CreatePlaylistModal';
-import Direction from './Direction';
+import React, { useEffect } from "react";
 
 export default function Home({ setPath }) {
 
-    useEffect(() => setPath(""), [])
+    useEffect(() => setPath(""), [setPath])
 
     return (
-        <h1>
-            HOME PAGE
-        </h1>
+        <section style={{
+            width: `100%`,
+            height: '750px'
+        }}>
+        </section>
     )
 }
